@@ -28,4 +28,5 @@ function isUnique6(str){
   return str.split('').sort().every((v, i, a) => v !== a[i + 1]);
 }
 
-['asdfghjkl', 'asdfghajkl', ''].forEach((v) => console.log(isUnique4(v)));
+['asdfghjkl', 'asdfghajkl', '']
+  .forEach((v) => console.log(isUnique4(v)));
